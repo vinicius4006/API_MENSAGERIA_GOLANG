@@ -1,6 +1,6 @@
 package usecase
 
-import "github.com/vinicius4006/imersao12-go-esquenta/internal/entity"
+import "github.com/vinicius4006/API_MENSAGERIA_GOLANG/internal/entity"
 
 type CreateProductInputDto struct {
 	Name  string  `json:"name"`

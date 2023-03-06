@@ -9,10 +9,10 @@ import (
 	"github.com/confluentinc/confluent-kafka-go/kafka"
 	"github.com/go-chi/chi/v5"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/vinicius4006/imersao12-go-esquenta/internal/infra/akafka"
-	"github.com/vinicius4006/imersao12-go-esquenta/internal/infra/repository"
-	"github.com/vinicius4006/imersao12-go-esquenta/internal/infra/web"
-	"github.com/vinicius4006/imersao12-go-esquenta/internal/usecase"
+	"github.com/vinicius4006/API_MENSAGERIA_GOLANG/internal/infra/akafka"
+	"github.com/vinicius4006/API_MENSAGERIA_GOLANG/internal/infra/repository"
+	"github.com/vinicius4006/API_MENSAGERIA_GOLANG/internal/infra/web"
+	"github.com/vinicius4006/API_MENSAGERIA_GOLANG/internal/usecase"
 )
 
 func main() {

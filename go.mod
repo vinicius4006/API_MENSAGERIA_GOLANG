@@ -1,4 +1,4 @@
-module github.com/vinicius4006/imersao12-go-esquenta
+module github.com/vinicius4006/API_MENSAGERIA_GOLANG
 
 go 1.20
 

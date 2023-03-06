@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/vinicius4006/imersao12-go-esquenta/internal/usecase"
+	"github.com/vinicius4006/API_MENSAGERIA_GOLANG/internal/usecase"
 )
 
 type ProductHandlers struct {
