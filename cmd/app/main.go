@@ -37,7 +37,7 @@ func main() {
 	msgChan := make(chan *kafka.Message)
 
 	go akafka.Consume([]string{"products"}, "host.docker.internal:9094", msgChan)
-
+	// testando
 	for msg := range msgChan {
 		dto := usecase.CreateProductInputDto{}
 		err := json.Unmarshal(msg.Value, &dto)
